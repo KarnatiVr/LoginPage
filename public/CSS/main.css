@@ -1,0 +1,54 @@
+
+.centeredL{
+    position: fixed;
+    top: 20%;
+    left:37%;
+    height: 400px;
+    width: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+.centeredS{
+    position: fixed;
+    top: 20%;
+    left:37%;
+    height: 450px;
+    width: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+}
+
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.heading p{
+    background-color: rgb(255, 214, 214);
+}
+.page{
+    margin-top: 30px;
+    gap: 20px;
+    
+}
+.page input{
+    width: 300px;
+    margin-left: 15%;
+}
+input[type="checkbox"]{
+    margin-top: 25px;
+    margin-left: 13%;
+    margin-right: 3px;
+}
+.lgn-btn{
+    display: block;
+    margin-top: 20px;
+    margin-left: 12%;
+}
+.form>p{
+    margin-top: 10px;
+    margin-left: 12%;
+}
